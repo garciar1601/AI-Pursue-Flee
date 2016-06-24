@@ -1,0 +1,4 @@
+LevelFile:
+../OBJ Converter/bin/Debug/AIWorld.bin
+NodeSystem:
+../LevelEditor/AINodes.bin

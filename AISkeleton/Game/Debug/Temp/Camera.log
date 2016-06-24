@@ -1,0 +1,25 @@
+﻿Build started 6/23/2016 8:05:51 PM.
+     1>Project "C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Camera.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\\" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\Engine" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\Qt\include" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\glew\include" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\glm" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\NeumontTools\include" /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\Temp\\" /Fd"Debug\Temp\vc120.pdb" /Gd /TP /wd4127 /analyze- /errorReport:prompt AStar.cpp IO\FileIO.cpp Mainer.cpp MeGame.cpp MeGame_moc.cpp Node.cpp
+         Node.cpp
+         MeGame_moc.cpp
+         MeGame.cpp
+         Mainer.cpp
+         FileIO.cpp
+         AStar.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Camera.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\\Debug" /LIBPATH:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\Qt\lib" /LIBPATH:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\glew\lib" /LIBPATH:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\NeumontTools\lib" Engine.lib QtCored4.lib QtGuid4.lib QtOpenGld4.lib glew32d.lib opengl32.lib NeumontTools.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Camera.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Camera.lib" /MACHINE:X86 Debug\Temp\AStar.obj
+         Debug\Temp\FileIO.obj
+         Debug\Temp\Mainer.obj
+         Debug\Temp\MeGame.obj
+         Debug\Temp\MeGame_moc.obj
+         Debug\Temp\Node.obj
+         Camera.vcxproj -> C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Camera.exe
+     1>Done Building Project "C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Camera.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.62
