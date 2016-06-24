@@ -1,0 +1,46 @@
+﻿Build started 6/23/2016 8:05:43 PM.
+     1>Project "C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\Renderer" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Engine\\" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\Qt\include" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\glew\include" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\glm" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\NeumontTools\include" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\GameSolution\Core\include" /ZI /nologo /W4 /WX /Od /Oy- /D LOG_ON /D PROFILING_ON /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ENGINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\obj\\" /Fd"Debug\obj\vc120.pdb" /Gd /TP /wd4127 /wd4251 /wd4100 /analyze- /errorReport:prompt Camera.cpp Debug\DebugTools\ButtonInfo.cpp Debug\DebugTools\ButtonInfo_moc.cpp Debug\DebugTools\DebugMenu.cpp Debug\DebugTools\DebugShapes.cpp Debug\DebugTools\DebugSlider.cpp Debug\DebugTools\DebugSlider_moc.cpp Engine.cpp Logger.cpp Menu.cpp Profiler.cpp Rendering\Renderer.cpp Rendering\ShapeCreator.cpp Timer.cpp
+         Timer.cpp
+         ShapeCreator.cpp
+         Renderer.cpp
+         Profiler.cpp
+         Menu.cpp
+         Logger.cpp
+         Engine.cpp
+         DebugSlider_moc.cpp
+         DebugSlider.cpp
+         DebugShapes.cpp
+         DebugMenu.cpp
+         ButtonInfo_moc.cpp
+         ButtonInfo.cpp
+         Camera.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\Renderer" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Engine\\" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\Qt\include" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\glew\include" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\glm" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\NeumontTools\include" /I"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\GameSolution\Core\include" /ZI /nologo /W4 /WX /Od /Oy- /D DEBUG_SHAPES /D LOG_ON /D PROFILING_ON /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ENGINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\obj\\" /Fd"Debug\obj\vc120.pdb" /Gd /TP /wd4127 /wd4251 /wd4100 /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Engine.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\Qt\lib" /LIBPATH:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\glew\lib" /LIBPATH:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\..\MiddleWare\NeumontTools\lib" QtCored4.lib QtGuid4.lib QtOpenGld4.lib glew32d.lib opengl32.lib NeumontTools.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Engine.lib" /MACHINE:X86 /DLL Debug\obj\Camera.obj
+         Debug\obj\ButtonInfo.obj
+         Debug\obj\ButtonInfo_moc.obj
+         Debug\obj\DebugMenu.obj
+         Debug\obj\DebugShapes.obj
+         Debug\obj\DebugSlider.obj
+         Debug\obj\DebugSlider_moc.obj
+         Debug\obj\dllmain.obj
+         Debug\obj\Engine.obj
+         Debug\obj\Logger.obj
+         Debug\obj\Menu.obj
+         Debug\obj\Profiler.obj
+         Debug\obj\Renderer.obj
+         Debug\obj\ShapeCreator.obj
+         Debug\obj\Timer.obj
+            Creating library C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Engine.lib and object C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Engine.exp
+         Engine.vcxproj -> C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Game\Debug\Engine.dll
+     1>Done Building Project "C:\Users\Ryan Garcia\Documents\AIPusrueFleeGit\AI-Pursue-Flee\AISkeleton\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.36
